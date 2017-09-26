@@ -1,101 +1,114 @@
-#twittericon{
-  color:rgb(0, 172, 237);
-}
+/* Custom page CSS
+-------------------------------------------------- */
 
-#githubicon{
-  color:rgb(102, 43, 129);
-}
-
-#facebookicon{
-  color:rgb(59,89, 163);
-}
-
-#linkedinicon{
-  color:rgb(0, 127, 178);
-}
-
-
-.block {
-  background-color: black;
-  opacity: 0.8;
-  padding: 10px;
-  width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 10px;
-
-}
-.nav-pills{
-  font-size:1.7em;
-  background-color: black;
-  margin-bottom: 10%;
-  
+html {
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	font-family: sans-serif;
 }
 
 body{
-  background-color: white;
-  font-family: Lobster;
-  color: white;
+	font-family: 'Work Sans', sans-serif;
+	background-color: #C5C1C0;
+	color: white;
+	margin: 0;
+	line-height: 1.5;
 }
 
-
-h1 {
-  padding: 0;
-  margin-top: 0px;
-  font-size: 5.0em;
-}
-.btn-default {
-  background-color: black;
-  border-color: black;
-  color: #337ab7;
-  font-size: 1.7em;
+*{
+	box-sizing: border-box;
 }
 
-.paddingTop{
-  padding-top:2%;
-  padding-bottom:2%;
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px;
+	padding: 0 0 60px;
 }
 
-.pageOne{
-  background:url("https://images.unsplash.com/photo-1494925004943-5d5ba07360be?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jenu-prasad-259192.jpg&s=412330e2cb044cce145039dce36d8dc6");
-  background-size: cover;
-  padding-bottom:10%;
-}
-.pageTwo {
-  background:url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jeremy-thomas-99326.jpg&s=a9c2b1f5ccdb5374c36030b65d14ceb8");
-  background-size: cover;
-  padding-bottom:5%;
-  padding-top: 5%;
+/* Basic Typography */
+h1{
+	font-size: 45px;
+	color: #f7ce3e;
+	font-weight: 500;
 }
 
-.pageThree{
-  background:url("https://images.unsplash.com/photo-1464468164664-850fcaf6be4a?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jamie-street-96982.jpg&s=f8f9fd81897099410fe73efb5f226a9e");
-  background-size:cover;
-  padding-top:5%;
-  padding-bottom:5%;
+h2{
+	font-size: 25px;
+	font-weight: 300;
 }
 
-.pageFour{
-  background:url("https://images.unsplash.com/photo-1483068612337-c045daaca40e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=priscilla-du-preez-181896.jpg&s=6a8effdc562d84da782a62429dfdd50a");
-  background-size:cover;
-  height:800px;
-  padding-top:5%;
+section h2{
+	font-weight: 500;
 }
 
-p {
-  font-size: 2.2em;
-} 
-
-.me {
-  height:400px;
-  margin-right:auto;
-  margin-left:auto;
-  border-radius:50%;
+h2 a{
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px solid #f7ce3e;
 }
 
+h2 a:hover{
+	color: #f7ce3e;
+}
 
+p{
+	font-size: 19px;
+	font-weight: 300;
+}
 
+p a{
+	color: white;
+}
 
+a{
+	transition: ease all 0.2s;
+}
 
+/* Head */
+header{
+	height: 100vh;
+	padding: 100px;
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
 
+#pt{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 0;
+	z-index: -1;
+	background-color: #f7ce3e;
+}
 
+header nav{
+	text-align: left;
+	position: absolute;
+    left: 100px;
+    cursor: pointer;
+}
+
+header nav a{
+	text-decoration: none;
+	margin-left: 50px;
+	border-bottom: 2px solid rgba(223, 93, 75, 0);
+	color: #1a2930;
+}
+
+header nav a:hover{
+	border-bottom: 2px solid #f7ce3e;
+}
+
+.centerer{
+	display: flex;
+	height: 100%;
+	
+}
+
+.hero{
+	max-width: 420px;
+	margin-top: auto;
+	margin-bottom: auto;
+}

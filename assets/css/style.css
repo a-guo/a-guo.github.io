@@ -1,114 +1,91 @@
-/* Custom page CSS
--------------------------------------------------- */
-
-html {
-	height: 100%;
-	-webkit-font-smoothing: antialiased;
-	font-family: sans-serif;
-}
-
 body{
-	font-family: 'Work Sans', sans-serif;
-	background-color: #C5C1C0;
-	color: white;
 	margin: 0;
-	line-height: 1.5;
-}
-
-*{
-	box-sizing: border-box;
-}
-
-#wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -60px;
-	padding: 0 0 60px;
-}
-
-/* Basic Typography */
-h1{
-	font-size: 45px;
-	color: #f7ce3e;
-	font-weight: 500;
-}
-
-h2{
-	font-size: 25px;
-	font-weight: 300;
-}
-
-section h2{
-	font-weight: 500;
-}
-
-h2 a{
-	color: white;
-	text-decoration: none;
-	border-bottom: 2px solid #f7ce3e;
-}
-
-h2 a:hover{
-	color: #f7ce3e;
-}
-
-p{
-	font-size: 19px;
-	font-weight: 300;
-}
-
-p a{
-	color: white;
-}
-
-a{
-	transition: ease all 0.2s;
-}
-
-/* Head */
-header{
-	height: 100vh;
-	padding: 100px;
-	border-bottom: 1px solid rgba(255,255,255,0.1);
-}
-
-#pt{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
 	padding: 0;
-	z-index: -1;
-	background-color: #f7ce3e;
+	background: url(src of background i.e. bg.jpg) no-repeat;
+	background-size: cover;
+
 }
 
-header nav{
-	text-align: left;
-	position: absolute;
-    left: 100px;
-    cursor: pointer;
+.box {
+	width: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Century Gothic'.sans-serif;
+
 }
 
-header nav a{
+.box-img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+
+}
+
+.box h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+
+}
+
+.box h5 {
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+
+}
+
+.box p {
+	text-align: justify;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+.box li {
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+
+.box li a{
+	color: white;
 	text-decoration: none;
-	margin-left: 50px;
-	border-bottom: 2px solid rgba(223, 93, 75, 0);
-	color: #1a2930;
+	font-size: 60px;
+	transition: all ease-in-out 250ms;
+
 }
 
-header nav a:hover{
-	border-bottom: 2px solid #f7ce3e;
+.box li a:hover{
+	color: #b9b9b9;
 }
 
-.centerer{
-	display: flex;
-	height: 100%;
-	
-}
 
-.hero{
-	max-width: 420px;
-	margin-top: auto;
-	margin-bottom: auto;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

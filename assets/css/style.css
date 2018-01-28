@@ -1,95 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 
-#twittericon{
-  color:rgb(0, 172, 237);
+.loader {
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  top: 0; right: 0; left: 0; bottom: 0;
+  margin: auto;
+}
+.loader .image {
+  width: 100px;
+  height: 160px;
+  font-size: 40px;
+  text-align: center;
+  transform-origin: bottom center;
+  animation: 3s rotate infinite;
+  opacity: 0;
+}
+.loader span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
 }
 
-#githubicon{
-  color:rgb(102, 43, 129);
-}
-
-#facebookicon{
-  color:rgb(59,89, 163);
-}
-
-#linkedinicon{
-  color:rgb(0, 127, 178);
-}
-
-
-.block {
-  background-color: black;
-  opacity: 0.8;
-  padding: 10px;
-  width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 10px;
-
-}
-.nav-pills{
-  font-size:1.7em;
-  background-color: black;
-  margin-bottom: 10%;
-
+@keyframes rotate{
+  0% {
+    transform: rotate(90deg);
+  }
+  10% {
+    opacity: 0;
+  }
+  35% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  65% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
 }
 
 body{
-  background-color: white;
-  font-family: Lobster;
-  color: white;
+	margin: 0;
+	padding: 0;
+	background: url("https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?auto=format&fit=crop&w=1950&q=80") no-repeat;
+	background-size: cover;
+
 }
 
+.box {
+	width: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Lato'.sans-serif;
 
-h1 {
-  padding: 0;
-  margin-top: 0px;
-  font-size: 5.0em;
-}
-.btn-default {
-  background-color: black;
-  border-color: black;
-  color: #337ab7;
-  font-size: 1.7em;
-}
-
-.paddingTop{
-  padding-top:2%;
-  padding-bottom:2%;
 }
 
-.pageOne{
-  background:url("https://images.unsplash.com/photo-1494925004943-5d5ba07360be?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jenu-prasad-259192.jpg&s=412330e2cb044cce145039dce36d8dc6");
-  background-size: cover;
-  padding-bottom:10%;
-}
-.pageTwo {
-  background:url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jeremy-thomas-99326.jpg&s=a9c2b1f5ccdb5374c36030b65d14ceb8");
-  background-size: cover;
-  padding-bottom:5%;
-  padding-top: 5%;
+.box-img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+
 }
 
-.pageThree{
-  background:url("https://images.unsplash.com/photo-1464468164664-850fcaf6be4a?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jamie-street-96982.jpg&s=f8f9fd81897099410fe73efb5f226a9e");
-  background-size:cover;
-  padding-top:5%;
-  padding-bottom:5%;
+.box h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+
 }
 
-.pageFour{
-  background:url("https://images.unsplash.com/photo-1483068612337-c045daaca40e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=priscilla-du-preez-181896.jpg&s=6a8effdc562d84da782a62429dfdd50a");
-  background-size:cover;
-  height:800px;
-  padding-top:5%;
+.box h5 {
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+
 }
 
-p {
-  font-size: 2.2em;
+.box p {
+	text-align: justify;
 }
 
-.me {
-  height:400px;
-  margin-right:auto;
-  margin-left:auto;
-  border-radius:50%;
+ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+.box li {
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+
+.box li a{
+	color: white;
+	text-decoration: none;
+	font-size: 60px;
+	transition: all ease-in-out 250ms;
+
+}
+
+.box li a:hover{
+	color: #b9b9b9;
 }

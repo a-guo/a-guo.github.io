@@ -38,11 +38,11 @@ function loading(){
     setTimeout(function() {
       $('.loader span').html(num+'%');
 
-      if(num == 1000) {
+      if(num == 100) {
         loading();
       }
       num++;
-    },i*1200);
+    },i*120);
   };
 
 }

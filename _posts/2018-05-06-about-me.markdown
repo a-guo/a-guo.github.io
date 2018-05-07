@@ -4,7 +4,7 @@ date:   2018-05-06 15:04:23
 categories: [info]
 tags: [info]
 ---
-ey there! I’m Addie, a Computer Science student at the University of Waterloo (estimated 2021). With a passion for writing simple solutions to solve complex problems, I hope to change the world one line of code at a time.
+Hey there! I’m Addie, a Computer Science student at the University of Waterloo (estimated 2021). With a passion for writing simple solutions to solve complex problems, I hope to change the world one line of code at a time.
 
 In my spare time, I love to run, try delicious food, and read as many books as I can get my hands on.
 

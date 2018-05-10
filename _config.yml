@@ -1,8 +1,8 @@
 # Site settings
 title: Addie Guo
 description: 'Developer | Student | Foodie'
-url: 'http://addieguo.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+url: 'http://addieguo.com/'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 

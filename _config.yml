@@ -1,14 +1,14 @@
 # Site settings
 title: Addie Guo
 description: 'Developer | Student | Foodie'
-url: 'https://addieguo.com/'
+url: 'https://a-guo.github.io/'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
   name: 'Addie Guo'
-  email: hello@addieguo.com
+  email: guo.addie@gmail.com
   facebook_username: guo.addie
   github_username:  a-guo
   linkedin_username:  addieguo

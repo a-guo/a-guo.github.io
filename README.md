@@ -1,3 +1,3 @@
 # a-guo.github.io
 
-Check out my [website](http://www.addieguo.com/) to learn more about me!
+Check out my [website](https://a-guo.github.io/) to learn more about me!
